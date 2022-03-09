@@ -1,0 +1,163 @@
+/* screen - overlay */
+
+.overlay {
+  background-color: #00000099;
+  height: 8354px;
+  mix-blend-mode: normal;
+  overflow-x: hidden;
+  position: relative;
+  width: 390px;
+}
+
+#overlay-overlay {
+  background-color: #00000099;
+}
+
+.overlay .overlay {
+  background-color: #00000000;
+}
+
+.overlay .overlay-A2QFQd {
+  background-color: transparent;
+  height: 844px;
+  left: calc(100vw - 296px);
+  mix-blend-mode: normal;
+  position: relative;
+  top: 0px;
+  width: 296px;
+}
+
+.overlay .rectangle-9-HMVgiV {
+  background-color: transparent;
+  height: 100%;
+  left: calc(50.00% - 148px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 1px;
+}
+
+.overlay .menus-HMVgiV {
+  background-color: transparent;
+  height: 171px;
+  left: 35px;
+  position: absolute;
+  top: 121px;
+  width: 128px;
+}
+
+.overlay .descarga-la-app-WjI4Kx {
+  background-color: transparent;
+  cursor: pointer;
+  height: calc(100.00% - 154px);
+  left: calc(50.00% - 64px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  transition: all 0.2s ease;
+  width: auto;
+}
+
+.overlay .descarga-la-app-WjI4Kx:hover {
+  transform: translate(0, -5px);
+}
+
+.overlay .registra-tu-negocio-WjI4Kx {
+  background-color: transparent;
+  cursor: pointer;
+  height: calc(100.00% - 154px);
+  left: calc(50.00% - 64px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 77px;
+  transition: all 0.2s ease;
+  width: auto;
+}
+
+.overlay .registra-tu-negocio-WjI4Kx:hover {
+  transform: translate(0, -5px);
+}
+
+.overlay .contacto-WjI4Kx {
+  background-color: transparent;
+  cursor: pointer;
+  height: calc(100.00% - 154px);
+  left: calc(50.00% - 64px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 154px;
+  transition: all 0.2s ease;
+  width: auto;
+}
+
+.overlay .contacto-WjI4Kx:hover {
+  transform: translate(0, -5px);
+}
+
+.overlay .men-HMVgiV {
+  background-color: transparent;
+  color: var(--fuscous-gray);
+  cursor: pointer;
+  font-family: var(--font-family-gilroy-extrabold);
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  height: auto;
+  left: 35px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  transition: all 0.2s ease;
+  width: auto;
+}
+
+.overlay .men-HMVgiV:hover {
+  transform: translate(0, -5px);
+}
+
+.overlay .close-HMVgiV {
+  background-color: transparent;
+  cursor: pointer;
+  height: 38px;
+  left: 229px;
+  position: absolute;
+  top: 35px;
+  width: 38px;
+}
+
+.overlay .ellipse-1-cZitZe {
+  background-color: #e3e3e3;
+  border-radius: 19px;
+  height: 38px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 38px;
+}
+
+.overlay .union-cZitZe {
+  background-color: transparent;
+  height: 2px;
+  left: 233px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 54px;
+  width: 2px;
+}
