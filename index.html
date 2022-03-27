@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
-   
+
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
     <link rel="stylesheet" type="text/css" href="css/overlay.css" />
@@ -17,14 +17,63 @@
     <style></style>
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="stylesheet" type="text/css" href="css/modal.css" />
 
     <title>Jolly Hour - Promociones increíbles por tiempo limitado</title>
-   
 
-    <link rel="shortcut icon" type="image/png" href="https://partners.jollyhour.com.mx/favicon.png"/>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="https://partners.jollyhour.com.mx/favicon.png"
+    />
     <script src="app.js"></script>
   </head>
   <body style="margin: 0; background: #ffffff">
+    <div class="modalJolly">
+      <div class="contentModal">
+        <div class="modalTop">
+          <h3>Así es como Jolly Hour puede sumar a tu negocio</h3>
+          <div style="position: absolute; top: 40px; right: 20px">
+            <button
+              style="
+                background-color: white;
+                color: green;
+                border: none;
+                border: 1px solid green;
+                border-radius: 10px;
+                cursor: pointer;
+              "
+              onclick="window.open('https://partners.jollyhour.com.mx/')"
+            >
+              Crear cuenta Ahora
+            </button>
+            <button
+              style="
+                background-color: white;
+                color: red;
+                border: none;
+                font-weight: 900;
+                cursor: pointer;
+              "
+              onclick="cerrarModal()"
+            >
+              X
+            </button>
+          </div>
+        </div>
+        <div class="modalContent">
+          <iframe
+            src="https://www.youtube.com/embed/ChIKcbZdZrY"
+            title="la Ciencia Detrás de Jolly Hour"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style="width: 100%; height: 65vh"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
     <input type="hidden" id="anPageName" name="page" value="desktop-1" />
     <div class="iphone-13-13-pro-1 screen">
       <div class="fondo-blanco-fqIZXY"></div>
@@ -61,7 +110,10 @@
         />
       </div>
       <div class="botones-cta-header-fqIZXY">
-        <div class="boton-quiero-la-app-eMAxfn smart-layers-pointers" onclick="getUrlAppJollyHour()">
+        <div
+          class="boton-quiero-la-app-eMAxfn smart-layers-pointers"
+          onclick="getUrlAppJollyHour()"
+        >
           <div
             class="quiero-la-app-ahdcHG gilroy-extra-extra-bold-concrete-12px"
           >
@@ -133,7 +185,10 @@
           </div>
         </div>
         <div class="botones-cta-WnQw0C">
-          <div class="boton-quiero-la-app-aEvUx3 smart-layers-pointers" onclick="getUrlAppJollyHour()">
+          <div
+            class="boton-quiero-la-app-aEvUx3 smart-layers-pointers"
+            onclick="getUrlAppJollyHour()"
+          >
             <div
               class="quiero-la-app-Cm7pPx gilroy-extra-extra-bold-concrete-12px"
             >
@@ -248,7 +303,10 @@
         </div>
       </div>
       <div class="botones-bottom-fqIZXY">
-        <div class="boton-quiero-la-app-aEO7Ja smart-layers-pointers" onclick="getUrlAppJollyHour()">
+        <div
+          class="boton-quiero-la-app-aEO7Ja smart-layers-pointers"
+          onclick="getUrlAppJollyHour()"
+        >
           <div
             class="descarga-la-app-oixsnF gilroy-extra-extra-bold-concrete-12px"
           >
@@ -293,7 +351,7 @@
               <div
                 class="x52-477-1234-56-78-vdkUEi quicksand-medium-white-18px"
               >
-              +52 1 477 131 1907
+                +52 1 477 131 1907
               </div>
               <div class="holajollyhourcom-vdkUEi quicksand-medium-white-18px">
                 hola@jollyhour.com
@@ -305,7 +363,7 @@
               </a>
             </div>
           </div>
-          <div class="acerca-de-5xtS6M" style="display: none;">
+          <div class="acerca-de-5xtS6M" style="display: none">
             <div class="acerca-de-oDYMAt gilroy-extra-extra-bold-white-30px">
               Acerca de
             </div>
@@ -530,7 +588,8 @@
         />
         <div class="menus-POyVWW">
           <div
-            class="descarga-la-app-Nrpu10 smart-layers-pointers gilroy-extra-extra-bold-white-25px"  onclick="getUrlAppJollyHour()"
+            class="descarga-la-app-Nrpu10 smart-layers-pointers gilroy-extra-extra-bold-white-25px"
+            onclick="getUrlAppJollyHour()"
           >
             Descarga la App
           </div>
@@ -548,11 +607,17 @@
             </div>
           </a>
         </div>
-        <div class="descarga-la-app-POyVWW valign-text-middle"  onclick="getUrlAppJollyHour()">
+        <div
+          class="descarga-la-app-POyVWW valign-text-middle"
+          onclick="getUrlAppJollyHour()"
+        >
           Descarga la app
         </div>
         <div class="botones-cta-POyVWW">
-          <div class="boton-quiero-la-app-kfrJ3x smart-layers-pointers" onclick="getUrlAppJollyHour()">
+          <div
+            class="boton-quiero-la-app-kfrJ3x smart-layers-pointers"
+            onclick="getUrlAppJollyHour()"
+          >
             <div
               class="quiero-la-app-ttqMtP gilroy-extra-extra-bold-concrete-17-1px"
             >
@@ -663,7 +728,10 @@
           </div>
         </div>
         <div class="botones-cta-uORePI">
-          <div class="boton-quiero-la-app-gSF8R8 smart-layers-pointers" onclick="getUrlAppJollyHour()">
+          <div
+            class="boton-quiero-la-app-gSF8R8 smart-layers-pointers"
+            onclick="getUrlAppJollyHour()"
+          >
             <div
               class="quiero-la-app-B3tnjC gilroy-extra-extra-bold-concrete-17-1px"
             >
@@ -837,7 +905,10 @@
           </div>
         </div>
         <div class="botones-cta-9Q1fhS">
-          <div class="boton-quiero-la-app-aGkxmN smart-layers-pointers" onclick="getUrlAppJollyHour()">
+          <div
+            class="boton-quiero-la-app-aGkxmN smart-layers-pointers"
+            onclick="getUrlAppJollyHour()"
+          >
             <div
               class="descarga-la-app-ACqJEQ gilroy-extra-extra-bold-concrete-17-1px"
             >
@@ -886,7 +957,7 @@
               <div
                 class="x52-477-1234-56-78-f5jwwc quicksand-medium-white-18px"
               >
-              +52 1 477 131 1907
+                +52 1 477 131 1907
               </div>
               <div class="holajollyhourcom-f5jwwc quicksand-medium-white-18px">
                 hola@jollyhour.com
@@ -898,7 +969,7 @@
               </a>
             </div>
           </div>
-          <div class="acerca-de-wmD90X" style="display: none;">
+          <div class="acerca-de-wmD90X" style="display: none">
             <div class="acerca-de-johNqB gilroy-extra-extra-bold-white-30px">
               Acerca de
             </div>
@@ -1039,7 +1110,8 @@
         />
         <div class="menus-8wxdCm">
           <div
-            class="descarga-la-app-okRrzU smart-layers-pointers gilroy-extra-extra-bold-white-14px"  onclick="getUrlAppJollyHour()"
+            class="descarga-la-app-okRrzU smart-layers-pointers gilroy-extra-extra-bold-white-14px"
+            onclick="getUrlAppJollyHour()"
           >
             Descarga la App
           </div>
@@ -1063,7 +1135,10 @@
         />
       </div>
       <div class="botones-cta-header-iDsdqv">
-        <div class="boton-quiero-la-app-DIYvuv smart-layers-pointers" onclick="getUrlAppJollyHour()">
+        <div
+          class="boton-quiero-la-app-DIYvuv smart-layers-pointers"
+          onclick="getUrlAppJollyHour()"
+        >
           <div
             class="quiero-la-app-tFlxSi gilroy-extra-extra-bold-concrete-13-1px"
           >
@@ -1139,7 +1214,10 @@
           </div>
         </div>
         <div class="botones-cta-Ltj3bL">
-          <div class="boton-quiero-la-app-tpHTkf smart-layers-pointers" onclick="getUrlAppJollyHour()">
+          <div
+            class="boton-quiero-la-app-tpHTkf smart-layers-pointers"
+            onclick="getUrlAppJollyHour()"
+          >
             <div
               class="quiero-la-app-w6c8Xt gilroy-extra-extra-bold-concrete-13-1px"
             >
@@ -1258,7 +1336,10 @@
         </div>
       </div>
       <div class="botones-bottom-iDsdqv">
-        <div class="boton-quiero-la-app-j7wkPd smart-layers-pointers" onclick="getUrlAppJollyHour()">
+        <div
+          class="boton-quiero-la-app-j7wkPd smart-layers-pointers"
+          onclick="getUrlAppJollyHour()"
+        >
           <div
             class="descarga-la-app-ulu2Ii gilroy-extra-extra-bold-concrete-13-1px"
           >
@@ -1306,7 +1387,7 @@
               <div
                 class="x52-477-1234-56-78-RnIua1 quicksand-medium-white-18px"
               >
-              +52 1 477 131 1907
+                +52 1 477 131 1907
               </div>
               <div class="holajollyhourcom-RnIua1 quicksand-medium-white-18px">
                 hola@jollyhour.com
@@ -1318,7 +1399,7 @@
               </a>
             </div>
           </div>
-          <div class="acerca-de-00NxxP" style="display: none;">
+          <div class="acerca-de-00NxxP" style="display: none">
             <div class="acerca-de-gIinZz gilroy-extra-extra-bold-white-30px">
               Acerca de
             </div>
@@ -1479,7 +1560,8 @@
             <img class="rectangle-9-HMVgiV" src="" />
             <div class="menus-HMVgiV">
               <div
-                class="descarga-la-app-WjI4Kx smart-layers-pointers gilroy-extra-extra-bold-fuscous-gray-14px"  onclick="getUrlAppJollyHour()"
+                class="descarga-la-app-WjI4Kx smart-layers-pointers gilroy-extra-extra-bold-fuscous-gray-14px"
+                onclick="getUrlAppJollyHour()"
               >
                 Descarga la App
               </div>
