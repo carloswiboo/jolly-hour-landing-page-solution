@@ -24,3 +24,8 @@ function getUrlAppJollyHour() {
       "toolbar=0,location=0,menubar=0"
     );
 }
+
+function cerrarModal() {
+  var myElement = document.querySelector(".modalJolly");
+  myElement.style.display = "none";
+}
